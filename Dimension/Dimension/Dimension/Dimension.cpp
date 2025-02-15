@@ -114,7 +114,31 @@ int main()
     std::cout << "sizeof(ull) = " << sizeof(ull) << std::endl;
     std::cout << "unsigned long long max =  " << +std::numeric_limits<unsigned long long>::max() << std::endl;
     std::cout << std::endl;
+
+    //float
+    float f = 108.32f;
+
+    std::cout << "f = " << +f << std::endl;
+    std::cout << "sizeof(f) = " << sizeof(f) << std::endl;
+    std::cout << "float max =  " << +std::numeric_limits<float>::max() << std::endl;
+    std::cout << std::endl;
+
+    //double
+    double d = 108.322;
+
+    std::cout << "d = " << +d << std::endl;
+    std::cout << "sizeof(d) = " << sizeof(d) << std::endl;
+    std::cout << "double max =  " << +std::numeric_limits<double>::max() << std::endl;
+    std::cout << std::endl;
+
+    //double
+    long double ld = 108.111;
+    std::cout << "ld = " << +ld << std::endl;
+    std::cout << "sizeof(ld) = " << sizeof(ld) << std::endl;
+    std::cout << "long double max =  " << +std::numeric_limits<long double>::max() << std::endl;
+    std::cout << std::endl;
     
+    ret
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
