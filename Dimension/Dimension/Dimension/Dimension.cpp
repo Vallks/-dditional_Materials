@@ -131,7 +131,7 @@ int main()
     std::cout << "double max =  " << +std::numeric_limits<double>::max() << std::endl;
     std::cout << std::endl;
 
-    //double
+    //long double
     long double ld = 108.111;
     std::cout << "ld = " << +ld << std::endl;
     std::cout << "sizeof(ld) = " << sizeof(ld) << std::endl;
