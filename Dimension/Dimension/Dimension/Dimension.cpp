@@ -68,6 +68,48 @@ int main()
     std::cout << "unsigned int max =  " << +std::numeric_limits<unsigned int>::max() << std::endl;
     std::cout << std::endl;
 
+    long l = 8888888;
+
+    std::cout << "l = " << +l << std::endl;
+    std::cout << "sizeof(l) = " << sizeof(l) << std::endl;
+    std::cout << "long max =  " << +std::numeric_limits<long>::max() << std::endl;
+    std::cout << std::endl;
+
+    signed int sl = -100000000;
+
+    std::cout << "sl = " << +sl << std::endl;
+    std::cout << "sizeof(sl) = " << sizeof(sl) << std::endl;
+    std::cout << "signed long max =  " << +std::numeric_limits<signed long>::max() << std::endl;
+    std::cout << std::endl;
+
+    unsigned int ul = 144;
+
+    std::cout << "ul = " << +ul << std::endl;
+    std::cout << "sizeof(ul) = " << sizeof(ul) << std::endl;
+    std::cout << "unsigned long max =  " << +std::numeric_limits<unsigned long>::max() << std::endl;
+    std::cout << std::endl;
+
+    long ll = 8888888;
+
+    std::cout << "ll = " << +ll << std::endl;
+    std::cout << "sizeof(ll) = " << sizeof(ll) << std::endl;
+    std::cout << "long long max =  " << +std::numeric_limits<long long>::max() << std::endl;
+    std::cout << std::endl;
+
+    signed int sll = -100000000;
+
+    std::cout << "sll = " << +sll << std::endl;
+    std::cout << "sizeof(sll) = " << sizeof(sll) << std::endl;
+    std::cout << "signed long long max =  " << +std::numeric_limits<signed long long>::max() << std::endl;
+    std::cout << std::endl;
+
+    unsigned int ull = 1400000000000;
+
+    std::cout << "ull = " << +ull << std::endl;
+    std::cout << "sizeof(ull) = " << sizeof(ull) << std::endl;
+    std::cout << "unsigned long long max =  " << +std::numeric_limits<unsigned long long>::max() << std::endl;
+    std::cout << std::endl;
+
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
