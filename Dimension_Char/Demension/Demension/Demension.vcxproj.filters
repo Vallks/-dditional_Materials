@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Dimension_Char.cpp">
+    <ClCompile Include="Demension.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,4 +1,4 @@
-﻿// Dimension_Char.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+﻿// Demension.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 
 #include <iostream>
@@ -19,11 +19,32 @@ int main()
     std::cout << "signed char max =  " << +std::numeric_limits<signed char>::max() << std::endl;
     std::cout << std::endl;
 
-    unsigned char uc = 14;
+    unsigned int uc = 14;
 
-    std::cout << "uc = " << +c << std::endl;
+    std::cout << "uc = " << +uc << std::endl;
     std::cout << "sizeof(uc) = " << sizeof(uc) << std::endl;
     std::cout << "unsigned char max =  " << +std::numeric_limits<unsigned char>::max() << std::endl;
+    std::cout << std::endl;
+
+    int i = 888;
+
+    std::cout << "i = " << +i << std::endl;
+    std::cout << "sizeof(i) = " << sizeof(i) << std::endl;
+    std::cout << "int max =  " << +std::numeric_limits<int>::max() << std::endl;
+    std::cout << std::endl;
+
+    signed int si = -100;
+
+    std::cout << "si = " << +si << std::endl;
+    std::cout << "sizeof(si) = " << sizeof(si) << std::endl;
+    std::cout << "signed int max =  " << +std::numeric_limits<signed int>::max() << std::endl;
+    std::cout << std::endl;
+
+    unsigned int ui = 144;
+
+    std::cout << "ui = " << +ui << std::endl;
+    std::cout << "sizeof(ui) = " << sizeof(ui) << std::endl;
+    std::cout << "unsigned int max =  " << +std::numeric_limits<unsigned int>::max() << std::endl;
     std::cout << std::endl;
 
 }
