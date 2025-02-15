@@ -108,7 +108,7 @@ int main()
     std::cout << "signed long long max =  " << +std::numeric_limits<signed long long>::max() << std::endl;
     std::cout << std::endl;
 
-    unsigned long long ull = 1400000000000;
+    unsigned long long ull = 140000000999990000;
 
     std::cout << "ull = " << +ull << std::endl;
     std::cout << "sizeof(ull) = " << sizeof(ull) << std::endl;
