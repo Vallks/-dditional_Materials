@@ -33,35 +33,35 @@ int main()
     std::cout << "short max =  " << +std::numeric_limits<short>::max() << std::endl;
     std::cout << std::endl;
 
-    signed short ss = -10;
+    signed short ss = -1000;
 
     std::cout << "ss = " << +ss << std::endl;
     std::cout << "sizeof(ss) = " << sizeof(ss) << std::endl;
     std::cout << "signed short max =  " << +std::numeric_limits<signed short>::max() << std::endl;
     std::cout << std::endl;
 
-    unsigned int us = 14;
+    unsigned short us = 14646;
 
     std::cout << "us = " << +us << std::endl;
     std::cout << "sizeof(us) = " << sizeof(us) << std::endl;
     std::cout << "unsigned short max =  " << +std::numeric_limits<unsigned short>::max() << std::endl;
     std::cout << std::endl;
 
-    int i = 888;
+    int i = 888987;
 
     std::cout << "i = " << +i << std::endl;
     std::cout << "sizeof(i) = " << sizeof(i) << std::endl;
     std::cout << "int max =  " << +std::numeric_limits<int>::max() << std::endl;
     std::cout << std::endl;
 
-    signed int si = -100;
+    signed int si = -1004656;
 
     std::cout << "si = " << +si << std::endl;
     std::cout << "sizeof(si) = " << sizeof(si) << std::endl;
     std::cout << "signed int max =  " << +std::numeric_limits<signed int>::max() << std::endl;
     std::cout << std::endl;
 
-    unsigned int ui = 144;
+    unsigned int ui = 14499879;
 
     std::cout << "ui = " << +ui << std::endl;
     std::cout << "sizeof(ui) = " << sizeof(ui) << std::endl;
