@@ -19,7 +19,7 @@ int main()
     std::cout << "signed char max =  " << +std::numeric_limits<signed char>::max() << std::endl;
     std::cout << std::endl;
 
-    unsigned int uc = 14;
+    unsigned char uc = 14;
 
     std::cout << "uc = " << +uc << std::endl;
     std::cout << "sizeof(uc) = " << sizeof(uc) << std::endl;
@@ -75,35 +75,35 @@ int main()
     std::cout << "long max =  " << +std::numeric_limits<long>::max() << std::endl;
     std::cout << std::endl;
 
-    signed int sl = -100000000;
+    signed long sl = -100000000;
 
     std::cout << "sl = " << +sl << std::endl;
     std::cout << "sizeof(sl) = " << sizeof(sl) << std::endl;
     std::cout << "signed long max =  " << +std::numeric_limits<signed long>::max() << std::endl;
     std::cout << std::endl;
 
-    unsigned int ul = 144;
+    unsigned long ul = 144;
 
     std::cout << "ul = " << +ul << std::endl;
     std::cout << "sizeof(ul) = " << sizeof(ul) << std::endl;
     std::cout << "unsigned long max =  " << +std::numeric_limits<unsigned long>::max() << std::endl;
     std::cout << std::endl;
 
-    long ll = 8888888;
+    long long ll = 8888888;
 
     std::cout << "ll = " << +ll << std::endl;
     std::cout << "sizeof(ll) = " << sizeof(ll) << std::endl;
     std::cout << "long long max =  " << +std::numeric_limits<long long>::max() << std::endl;
     std::cout << std::endl;
 
-    signed int sll = -100000000;
+    signed long long sll = -100000000;
 
     std::cout << "sll = " << +sll << std::endl;
     std::cout << "sizeof(sll) = " << sizeof(sll) << std::endl;
     std::cout << "signed long long max =  " << +std::numeric_limits<signed long long>::max() << std::endl;
     std::cout << std::endl;
 
-    unsigned int ull = 1400000000000;
+    unsigned long long ull = 1400000000000;
 
     std::cout << "ull = " << +ull << std::endl;
     std::cout << "sizeof(ull) = " << sizeof(ull) << std::endl;
