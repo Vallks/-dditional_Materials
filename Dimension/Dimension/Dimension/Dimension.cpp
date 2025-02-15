@@ -114,7 +114,7 @@ int main()
     std::cout << "sizeof(ull) = " << sizeof(ull) << std::endl;
     std::cout << "unsigned long long max =  " << +std::numeric_limits<unsigned long long>::max() << std::endl;
     std::cout << std::endl;
-
+    
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
