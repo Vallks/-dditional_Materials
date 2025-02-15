@@ -1,4 +1,4 @@
-﻿// Demension.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+﻿// Dimension.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 
 #include <iostream>
@@ -24,6 +24,27 @@ int main()
     std::cout << "uc = " << +uc << std::endl;
     std::cout << "sizeof(uc) = " << sizeof(uc) << std::endl;
     std::cout << "unsigned char max =  " << +std::numeric_limits<unsigned char>::max() << std::endl;
+    std::cout << std::endl;
+
+    short s = 8888;
+
+    std::cout << "s = " << +s << std::endl;
+    std::cout << "sizeof(s) = " << sizeof(s) << std::endl;
+    std::cout << "short max =  " << +std::numeric_limits<short>::max() << std::endl;
+    std::cout << std::endl;
+
+    signed short ss = -10;
+
+    std::cout << "ss = " << +ss << std::endl;
+    std::cout << "sizeof(ss) = " << sizeof(ss) << std::endl;
+    std::cout << "signed short max =  " << +std::numeric_limits<signed short>::max() << std::endl;
+    std::cout << std::endl;
+
+    unsigned int us = 14;
+
+    std::cout << "us = " << +us << std::endl;
+    std::cout << "sizeof(us) = " << sizeof(us) << std::endl;
+    std::cout << "unsigned short max =  " << +std::numeric_limits<unsigned short>::max() << std::endl;
     std::cout << std::endl;
 
     int i = 888;

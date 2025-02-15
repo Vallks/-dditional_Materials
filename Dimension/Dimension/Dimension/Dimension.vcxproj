@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a611317f-765b-4f4c-b221-14e03304f2c9}</ProjectGuid>
-    <RootNamespace>Demension</RootNamespace>
+    <ProjectGuid>{a7db7a9f-a262-41ee-9c5d-cac830982228}</ProjectGuid>
+    <RootNamespace>Dimension</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Demension.cpp" />
+    <ClCompile Include="Dimension.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
