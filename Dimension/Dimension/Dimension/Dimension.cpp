@@ -138,7 +138,7 @@ int main()
     std::cout << "long double max =  " << +std::numeric_limits<long double>::max() << std::endl;
     std::cout << std::endl;
     
-    ret
+    return 0;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
